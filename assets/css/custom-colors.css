@@ -1,0 +1,40 @@
+:root {
+    /* Modern Color Palette */
+    --primary-color: #3498db;      /* Vibrant Blue */
+    --secondary-color: #2ecc71;    /* Fresh Green */
+    --accent-color: #e74c3c;       /* Energetic Red */
+    --background-light: #f8f9fa;   /* Light Background */
+    --text-dark: #2c3e50;          /* Dark Text */
+    --white: #ffffff;
+    --grey: #95a5a6;
+
+    /* Extended Color Palette */
+    --success-color: #2ecc71;
+    --warning-color: #f39c12;
+    --danger-color: #e74c3c;
+    --info-color: #3498db;
+}
+
+/* Global Color Application */
+body {
+    background-color: var(--background-light);
+    color: var(--text-dark);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
